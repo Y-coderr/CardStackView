@@ -100,12 +100,11 @@ public class MainActivityAlternative extends AppCompatActivity {
     private void loadProfiles() {
         profiles = new ArrayList<>();
         // Using Android's default drawables or drawables that already exist in your project
-        // Replace these with drawables that actually exist in your project
-        profiles.add(new Profile("Emma Johnson", 28, "Travel enthusiast and coffee lover", android.R.drawable.ic_menu_gallery));
-        profiles.add(new Profile("James Smith", 32, "Software engineer who loves hiking", android.R.drawable.ic_menu_camera));
-        profiles.add(new Profile("Olivia Davis", 24, "Photographer and adventure seeker", android.R.drawable.ic_menu_myplaces));
-        profiles.add(new Profile("Michael Wilson", 30, "Chef and fitness junkie", android.R.drawable.ic_menu_compass));
-        profiles.add(new Profile("Sophia Brown", 26, "Writer and book lover", android.R.drawable.ic_menu_agenda));
+        profiles.add(new Profile("Yash Kadam", 21, "Android Developer who loves photography also", android.R.drawable.ic_menu_gallery));
+        profiles.add(new Profile("Darshan Patil", 22, "Software engineer who loves traveling", android.R.drawable.ic_menu_camera));
+        profiles.add(new Profile("Ritesh Ubale", 24, "Photographer", android.R.drawable.ic_menu_myplaces));
+        profiles.add(new Profile("Onkar Shahapurkar", 30, "Travel enthusiast", android.R.drawable.ic_menu_compass));
+        profiles.add(new Profile("Ankit metkri", 26, "ethical hacker who loves coding", android.R.drawable.ic_menu_agenda));
         // Add more profiles as needed
     }
 }

@@ -40,13 +40,13 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation ("com.yuyakaido.android:card-stack-view:2.3.4")
+    //implementation ("com.yuyakaido.android:card-stack-view:2.3.4")
     implementation ("androidx.appcompat:appcompat:1.5.1")
     implementation ("com.google.android.material:material:1.7.0")
     implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
 
     // Card Stack View Library
-    implementation ("com.github.yuyakaido:CardStackView:2.3.4")
-    implementation ("com.github.Yalantis:Koloda-Android:v0.0.1-alpha")
+    //implementation ("com.github.yuyakaido:CardStackView:2.3.4")
+    //implementation ("com.github.Yalantis:Koloda-Android:v0.0.1-alpha")
     implementation("com.lorentzos.swipecards:library:1.0.9")
 }
